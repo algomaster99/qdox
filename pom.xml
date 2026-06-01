@@ -601,6 +601,59 @@
               <useModulePath>false</useModulePath>
               <argLine>-XX:AOTCacheOutput=${project.basedir}/cache.aot</argLine>
               <testFailureIgnore>true</testFailureIgnore>
+              <excludes>
+                <exclude>com/thoughtworks/qdox/builder/impl/EvaluatingVisitorTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/builder/impl/ModelBuilderTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/directorywalker/DirectoryScannerTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/GenericsTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/JavaProjectBuilderTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/AddTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/AndTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/AnnotationValueListTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/AssignmentTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/CastTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/DivideTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/EqualsTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/ExclusiveOrTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/FieldRefTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/GreaterEqualsTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/GreaterThanTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/LessEqualsTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/LessThanTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/LogicalAndTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/LogicalNotTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/LogicalOrTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/MinusSignTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/MultiplyTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/NotEqualsTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/NotTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/OrTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/ParenExpressionTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/PlusSignTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/PostDecrementTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/PostIncrementTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/PreDecrementTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/PreIncrementTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/QueryTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/RemainderTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/ShiftLeftTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/ShiftRightTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/SubtractTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/expression/UnsignedShiftRightTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/impl/AbstractJavaEntityTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/impl/DefaultJavaPackageTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaClassTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaConstructorTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaFieldTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaMethodTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaPackageTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaParameterTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/model/JavaSourceTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/parser/impl/DefaultJavaCommentParserTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/parser/ParserTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/type/TypeResolverTest.java</exclude>
+                <exclude>com/thoughtworks/qdox/writer/impl/DefaultModelWriterTest.java</exclude>
+              </excludes>
             </configuration>
           </plugin>
         </plugins>
